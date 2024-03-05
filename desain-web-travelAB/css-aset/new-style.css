@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+    height: 100vh;
+}
+.login-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .banner-page {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .login-session {
+    flex: 1;
+    /* padding: 20px; */
+  }
+  
+  .body-card {
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-text {
+    text-align: center;
+    /* width: 50%; */
+  }
+
+  .opsi-login {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .opsi-login .opsi-syarat {
+    width: 400px;
+  }
+  
+  .text-tanya-status {
+    text-align: center;
+    /* padding: 20px; */
+    /* margin-top: 200px; */
+  }
+  
+  footer {
+    padding: 20px;
+  }
