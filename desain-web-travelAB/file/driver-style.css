@@ -1,0 +1,151 @@
+body { 
+    text-align: center; 
+} 
+.modal-content  {
+    width: 950px;
+}
+/* .modal{
+    margin-left: 18%;
+} */
+.modal-dialog {
+    position: fixed;
+    justify-content: center;
+}
+.driver {
+    /* background-color: orange; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    background-color: #fff;
+    height: 90%;
+   
+}
+.login-left {
+    align-items: center;
+    /* background-color: aqua; */
+    height: 100%;
+}
+.login-left .carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.login-left .content {
+    width: 100%;
+}
+.next-refuse img {
+    width: 20px;
+}
+/* .login-left .carousel img {
+    width: 300px;
+}
+.login-left .image-gallery img {
+    width: 200px;
+} */
+/* carousel inner */
+.carousel-item img {
+    /* height: auto; */
+    width: 500px;
+}
+/* carousel indicator */
+.carousel-indicator img{
+    width: 65px;
+    display: block;
+}
+.carousel-indicator button {
+    width: max-content!important;
+}
+.carousel-indicator {
+    margin-top: 20px;
+    position: unset;
+    border: none;
+}
+/* .carousel-indicator {
+   p osition: unset;
+}
+.carousel-indicator button.active img {
+    border: 1px solid #ababab;
+} */
+
+.login-right {
+    align-items: center;
+    /* background-color:salmon; */
+}
+.login-right .content {
+    /* margin-top: 20px; */
+    width: 100%;
+    justify-content: center;
+}
+
+.login-right .pick-up {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.login-right .container-driver {
+    margin-left: 20px;
+}
+
+.login-right .pick-up p {
+    font-weight: 700;
+    font-size: 14px;
+    }
+
+.modal-footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+   /* atur modal */
+   .modal-content {
+    margin-left: -45px;
+   }
+   .modal-content {
+    width: 400px;
+    height: 710px;
+   }
+   .modal-header {
+    /* margin-top: 95px; */
+    /* height: 130px; */
+   }
+   /* atur carousel */
+   .login-left .carousel{
+    width: 350px;
+    justify-content: center;
+   }
+   .login-left .carousel-inner img{
+    width: 350px;
+    justify-content: center;
+   }
+   .carousel-indicator {
+    display: none;
+   }
+   /* login-right */
+   .container-driver {
+    width: 350px;
+    justify-content: center;
+    margin-top: 10px;
+   }
+   .container-driver h4 {
+    font-size: 15px;
+   }
+   .container-driver p {
+    font-size: 13px;
+   }
+   .container-driver .pick-up {
+    font-size: 14px;
+    padding-bottom: 0;
+   }
+   .login-right .container-driver {
+    margin: auto;
+    }
+    .login-right .pick-up {
+        margin-top: 25px;
+    }
+    .login-right .pick-up p {
+        font-weight: 700;
+        font-size: 14px;
+        }
+  }

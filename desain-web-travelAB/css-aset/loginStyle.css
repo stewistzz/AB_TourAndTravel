@@ -1,18 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 body {
     font-family: "Poppins", sans-serif;
 }
-
 .text-content {
     color: #00376D;
 }
-
 .background-color {
     background-image: linear-gradient(#e6e6e6, #0081FF);
 }
+
 /* .motif {
     position: absolute;
     width: 150%;
@@ -22,7 +20,13 @@ body {
     opacity: 0.2;
     display: block;
 } */
-.motif img {
+
+.headline {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.headline img {
     opacity: 0.1;
     position: absolute;
     top: 0%;
@@ -35,7 +39,7 @@ body {
 .text-content h3 {
     margin-top:  95px;
 }
-.text-content h2 {
+.text-content .text {
     padding-top: 10px;
     font-weight: 600;
     text-transform: capitalize;
@@ -133,3 +137,69 @@ body {
 .text-requiere{
     font-size: 14px;
 }
+
+
+/* responsive untuk mobile */
+@media (max-width: 768px) {
+    .text-content h3 {
+      margin-top: 30px;
+    }
+    .headline-text {
+        display: flex;
+        flex-direction: column;
+      }
+      .headline-text .bg-image {
+        display: flex; /* Jika ingin menyembunyikan gambar latar belakang pada dimensi mobile */
+        width: 200px;
+      }
+    /* .headline-text {
+        display: flex;
+        width: 380px;
+    } */
+    .headline-text .text-content,
+.headline-text .bg-image {
+  flex: 1;
+}
+    /* .headline img {
+        opacity: 0.1;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    } */
+    .text-content {
+        flex: 1;
+        padding: 20px;
+    }
+    .text-content .head{
+        font-size: 20px;
+    }
+    .text-content .text{
+        font-size: 18px;
+    }
+    .text-content p {
+        font-size: 12px;
+    }
+    .kanan {
+        padding: 30px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    .text-requiere{
+        font-size: 13px;
+    }
+    /* .bg-image {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+    /* kanan content */
+    .kanan {
+        border-radius: 0%;
+    }
+  }
